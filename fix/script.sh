@@ -1,0 +1,1 @@
+for i in `seq 1 1000`; do mysql -uroot -pwrongpass -h 127.0.0.1 -P3305 --ssl-mode=DISABLED; done 2>&1
